@@ -4,8 +4,8 @@ meta:
   engineVersion: 293.0.0
   forkId: ""
   forkVersion: ""
-  time: 11/25/2026 03:05:33
-  entityCount: 9244
+  time: 11/25/2026 04:15:40
+  entityCount: 9243
 maps:
 - 1
 grids:
@@ -3473,7 +3473,7 @@ entities:
       devices:
       - 1182
       - 23
-      - 6199
+      - 5652
       - 6800
     - type: Fixtures
       fixtures: {}
@@ -4393,7 +4393,7 @@ entities:
       pos: -32.5,-2.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -145373.53
+      secondsUntilStateChange: -145988.28
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -4428,7 +4428,7 @@ entities:
       pos: 27.5,18.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -73084.15
+      secondsUntilStateChange: -73698.9
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -22108,11 +22108,11 @@ entities:
       pos: 19.5,31.5
 - proto: DefaultStationBeaconArtifactLab
   entities:
-  - uid: 31
+  - uid: 6199
     components:
     - type: Transform
       parent: 2
-      pos: -24.5,-23.5
+      pos: -23.5,-23.5
 - proto: DefaultStationBeaconAtmospherics
   entities:
   - uid: 5386
@@ -22122,11 +22122,6 @@ entities:
       pos: -44.5,-9.5
 - proto: DefaultStationBeaconBar
   entities:
-  - uid: 2764
-    components:
-    - type: Transform
-      parent: 2
-      pos: -19.5,2.5
   - uid: 3435
     components:
     - type: Transform
@@ -22134,11 +22129,6 @@ entities:
       pos: -22.5,2.5
 - proto: DefaultStationBeaconBotany
   entities:
-  - uid: 3436
-    components:
-    - type: Transform
-      parent: 2
-      pos: -8.5,2.5
   - uid: 5614
     components:
     - type: Transform
@@ -22167,11 +22157,11 @@ entities:
       pos: 31.5,8.5
 - proto: DefaultStationBeaconCargoBay
   entities:
-  - uid: 5609
+  - uid: 1089
     components:
     - type: Transform
       parent: 2
-      pos: -20.5,22.5
+      pos: -19.5,22.5
 - proto: DefaultStationBeaconCargoReception
   entities:
   - uid: 3441
@@ -22214,6 +22204,13 @@ entities:
     - type: Transform
       parent: 2
       pos: 5.5,-6.5
+- proto: DefaultStationBeaconCourtroom
+  entities:
+  - uid: 427
+    components:
+    - type: Transform
+      parent: 2
+      pos: 1.5,12.5
 - proto: DefaultStationBeaconCryonics
   entities:
   - uid: 4603
@@ -22300,11 +22297,11 @@ entities:
       pos: 26.5,-3.5
 - proto: DefaultStationBeaconJanitorsCloset
   entities:
-  - uid: 427
+  - uid: 5609
     components:
     - type: Transform
       parent: 2
-      pos: 22.5,-2.5
+      pos: 22.5,-1.5
 - proto: DefaultStationBeaconKitchen
   entities:
   - uid: 3460
@@ -22363,11 +22360,11 @@ entities:
       pos: 23.5,-6.5
 - proto: DefaultStationBeaconRDRoom
   entities:
-  - uid: 6265
+  - uid: 2764
     components:
     - type: Transform
       parent: 2
-      pos: -24.5,-13.5
+      pos: -25.5,-13.5
 - proto: DefaultStationBeaconRobotics
   entities:
   - uid: 7030
@@ -22377,18 +22374,18 @@ entities:
       pos: -25.5,-9.5
 - proto: DefaultStationBeaconSalvage
   entities:
-  - uid: 4678
+  - uid: 31
     components:
     - type: Transform
       parent: 2
-      pos: -33.5,19.5
+      pos: -33.5,20.5
 - proto: DefaultStationBeaconScience
   entities:
-  - uid: 7143
+  - uid: 3436
     components:
     - type: Transform
       parent: 2
-      pos: -15.5,-11.5
+      pos: -15.5,-12.5
 - proto: DefaultStationBeaconSecurity
   entities:
   - uid: 6659
@@ -22410,13 +22407,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -10.5,-19.5
-- proto: DefaultStationBeaconSupply
-  entities:
-  - uid: 6811
-    components:
-    - type: Transform
-      parent: 2
-      pos: -20.5,15.5
 - proto: DefaultStationBeaconTEG
   entities:
   - uid: 1673
@@ -27664,6 +27654,14 @@ entities:
       pos: 31.5,7.5
     - type: AtmosPipeColor
       color: '#0055CCFF'
+  - uid: 3893
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: -14.5,-13.5
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
   - uid: 4172
     components:
     - type: Transform
@@ -27793,14 +27791,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 5.5,17.5
-    - type: AtmosPipeColor
-      color: '#0055CCFF'
-  - uid: 7132
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: -15.5,-13.5
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 7237
@@ -34041,6 +34031,14 @@ entities:
       pos: 26.5,1.5
     - type: AtmosPipeColor
       color: '#0055CCFF'
+  - uid: 4678
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: -15.5,-13.5
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
   - uid: 4699
     components:
     - type: Transform
@@ -37464,6 +37462,18 @@ entities:
       - 29
     - type: AtmosPipeLayers
       pipeLayer: Tertiary
+  - uid: 5652
+    components:
+    - type: Transform
+      parent: 2
+      pos: -14.5,-12.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 5
+    - type: AtmosPipeLayers
+      pipeLayer: Tertiary
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
   - uid: 6024
     components:
     - type: Transform
@@ -37493,18 +37503,6 @@ entities:
       color: '#0055CCFF'
     - type: AtmosPipeLayers
       pipeLayer: Tertiary
-  - uid: 6199
-    components:
-    - type: Transform
-      parent: 2
-      pos: -15.5,-12.5
-    - type: DeviceNetwork
-      deviceLists:
-      - 5
-    - type: AtmosPipeLayers
-      pipeLayer: Tertiary
-    - type: AtmosPipeColor
-      color: '#0055CCFF'
   - uid: 6264
     components:
     - type: Transform
@@ -41809,11 +41807,11 @@ entities:
       pos: -6.5,15.5
 - proto: HolopadServiceJanitor
   entities:
-  - uid: 1089
+  - uid: 5166
     components:
     - type: Transform
       parent: 2
-      pos: 22.5,-1.5
+      pos: 22.5,-2.5
 - proto: HolopadServiceKitchen
   entities:
   - uid: 1063
@@ -45528,12 +45526,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -54.5,-5.5
-  - uid: 3893
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 8.5,-20.5
   - uid: 3961
     components:
     - type: Transform
@@ -45569,6 +45561,12 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -58.5,-8.5
+  - uid: 5311
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 8.5,-20.5
   - uid: 5619
     components:
     - type: Transform
@@ -50014,7 +50012,7 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: 22.5,-2.5
+      pos: 22.5,-1.5
 - proto: SpawnPointLatejoin
   entities:
   - uid: 7423
