@@ -4,8 +4,8 @@ meta:
   engineVersion: 293.0.0
   forkId: ""
   forkVersion: ""
-  time: 11/25/2026 00:31:47
-  entityCount: 9248
+  time: 11/25/2026 03:05:33
+  entityCount: 9244
 maps:
 - 1
 grids:
@@ -313,7 +313,6 @@ entities:
             id: Bot
             color: '#FFFFFFFF'
           decals:
-            607: -12,13
             608: -18,9
             609: -18,-5
             761: 21,5
@@ -689,6 +688,7 @@ entities:
             4440: -5,21
             4441: 1,25
             4442: 3,25
+            4447: -12,13
         - node:
             id: DirtMedium
             color: '#FFFFFFFF'
@@ -2804,7 +2804,7 @@ entities:
             0: 4369
             2: 50176
           7,-3:
-            0: 497
+            0: 305
             2: 16384
           7,-2:
             0: 56593
@@ -2861,7 +2861,7 @@ entities:
           1,6:
             0: 61695
           1,7:
-            0: 17487
+            0: 79
           2,5:
             0: 62463
           2,6:
@@ -3199,7 +3199,7 @@ entities:
           -12,1:
             0: 30576
           -13,1:
-            0: 34995
+            0: 35059
             1: 12288
           -12,2:
             0: 14135
@@ -3207,7 +3207,7 @@ entities:
             0: 35464
             1: 12595
           -12,3:
-            0: 30583
+            0: 32631
           -13,3:
             0: 34952
             1: 13107
@@ -4393,7 +4393,7 @@ entities:
       pos: -32.5,-2.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -141719.77
+      secondsUntilStateChange: -145373.53
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -4428,7 +4428,7 @@ entities:
       pos: 27.5,18.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -69430.375
+      secondsUntilStateChange: -73084.15
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -7332,6 +7332,13 @@ entities:
     - type: Transform
       parent: 2
       pos: 5.658202,25.589506
+- proto: Bonfire
+  entities:
+  - uid: 3838
+    components:
+    - type: Transform
+      parent: 2
+      pos: -14.5,-18.5
 - proto: BookshelfFilled
   entities:
   - uid: 639
@@ -22637,11 +22644,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -5.5,11.5
-  - uid: 5652
-    components:
-    - type: Transform
-      parent: 2
-      pos: -10.5,13.5
   - uid: 6023
     components:
     - type: Transform
@@ -22713,12 +22715,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -29.5,2.5
-  - uid: 3846
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: -10.5,11.5
   - uid: 4604
     components:
     - type: Transform
@@ -22806,8 +22802,8 @@ entities:
     components:
     - type: Transform
       parent: 2
-      rot: 3.141592653589793 rad
-      pos: -10.5,12.5
+      rot: -1.5707963267948966 rad
+      pos: -10.5,11.5
   - uid: 160
     components:
     - type: Transform
@@ -24647,12 +24643,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -36.5,-11.5
-  - uid: 3805
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: -11.5,13.5
   - uid: 3811
     components:
     - type: Transform
@@ -24838,21 +24828,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -25.5,-2.5
-  - uid: 3838
-    components:
-    - type: Transform
-      parent: 2
-      pos: -11.5,13.5
-    - type: ContainerContainer
-      containers:
-        DisposalUnit: !type:Container
-          ents: []
-          showEnts: False
-          occludes: True
-        disposals: !type:Container
-          ents: []
-          showEnts: False
-          occludes: True
   - uid: 3840
     components:
     - type: Transform
@@ -45465,7 +45440,8 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: -53.5,-15.5
+      rot: 1.5707963267948966 rad
+      pos: -54.5,-15.5
   - uid: 713
     components:
     - type: Transform
@@ -45475,22 +45451,26 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: -53.5,-17.5
+      rot: 1.5707963267948966 rad
+      pos: -54.5,-17.5
   - uid: 1438
     components:
     - type: Transform
       parent: 2
-      pos: -53.5,-5.5
+      rot: 1.5707963267948966 rad
+      pos: -54.5,-11.5
   - uid: 1452
     components:
     - type: Transform
       parent: 2
-      pos: -53.5,-7.5
+      rot: 1.5707963267948966 rad
+      pos: -54.5,-7.5
   - uid: 1491
     components:
     - type: Transform
       parent: 2
-      pos: -53.5,-9.5
+      rot: 1.5707963267948966 rad
+      pos: -54.5,-13.5
   - uid: 2133
     components:
     - type: Transform
@@ -45542,6 +45522,12 @@ entities:
     - type: Transform
       parent: 2
       pos: -26.5,-35.5
+  - uid: 3805
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -54.5,-5.5
   - uid: 3893
     components:
     - type: Transform
@@ -45564,7 +45550,8 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: -53.5,-13.5
+      rot: 1.5707963267948966 rad
+      pos: -54.5,-9.5
   - uid: 4468
     components:
     - type: Transform
@@ -45576,11 +45563,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -73.5,-3.5
-  - uid: 5166
-    components:
-    - type: Transform
-      parent: 2
-      pos: -53.5,-11.5
   - uid: 5201
     components:
     - type: Transform
@@ -47839,13 +47821,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -54.5,10.5
-- proto: RMCCampfire
-  entities:
-  - uid: 5311
-    components:
-    - type: Transform
-      parent: 2
-      pos: -14.5,-18.5
 - proto: RobocopCircuitBoard
   entities:
   - uid: 7139
@@ -48424,7 +48399,7 @@ entities:
       linkedPorts:
         500:
         - - Pressed
-          - Toggle
+          - DoorBolt
     - type: Fixtures
       fixtures: {}
   - uid: 3981
@@ -48492,7 +48467,7 @@ entities:
       linkedPorts:
         551:
         - - Pressed
-          - Toggle
+          - DoorBolt
     - type: Fixtures
       fixtures: {}
   - uid: 4023
@@ -48506,7 +48481,7 @@ entities:
       linkedPorts:
         1034:
         - - Pressed
-          - Toggle
+          - DoorBolt
     - type: Fixtures
       fixtures: {}
   - uid: 4106
@@ -48520,7 +48495,7 @@ entities:
       linkedPorts:
         506:
         - - Pressed
-          - Toggle
+          - DoorBolt
     - type: Fixtures
       fixtures: {}
   - uid: 4518
@@ -49995,11 +49970,11 @@ entities:
       pos: 39.5,1.5
 - proto: SpawnPointChiefMedicalOfficer
   entities:
-  - uid: 9266
+  - uid: 3846
     components:
     - type: Transform
       parent: 2
-      pos: 4.5,-6.5
+      pos: 38.5,3.5
 - proto: SpawnPointClown
   entities:
   - uid: 721
